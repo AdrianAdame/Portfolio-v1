@@ -70,4 +70,11 @@
         overflow: auto;
     }
 
+    footer {
+        flex-direction: column;
+    }
+
+    footer nav {
+        height: fit-content;
+    }
 }

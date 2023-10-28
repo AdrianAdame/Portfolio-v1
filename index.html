@@ -10,6 +10,7 @@
         href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;0,9..40,800;0,9..40,900;1,9..40,400;1,9..40,500;1,9..40,600;1,9..40,700;1,9..40,800;1,9..40,900&family=Lobster&display=swap"
         >
     <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/footer.css">
     <link rel="stylesheet"href="./css/header.css">
     <link rel="stylesheet"href="./css/sections.css">
     <link rel="stylesheet"href="./css/responsive.css">
@@ -21,7 +22,7 @@
 
         <!-- Left Side -->
         <div class="logo center">
-            <a href="#">
+            <a href="#about">
                 <h2>My name</h2>
             </a>
         </div>
@@ -39,14 +40,15 @@
             </div>
 
             <div class="nav-link center">
-                <a href="">About me</a>
-                <a href="">Projects</a>
-                <a href="">Experience</a>
-                <a href="">Contact</a>
+                <a href="#section-1">About me</a>
+                <a href="#section-2">Projects</a>
+                <a href="#section-3">Experience</a>
+                <a href="#section-4">Contact</a>
             </div>
         </nav>
     </header>
 
+    <div id="section-1" class="break"></div>
     <section class="about-section">
         <div class="img-container center">
             <img src="./img/logo.png" id="about-img">
@@ -93,6 +95,7 @@
         </div>
     </section>
 
+    <div id="section-2" class="break"></div>
     <section id="projects" class="projects-section center">
         <h2>Projects</h2>
 
@@ -100,6 +103,7 @@
         </div>
     </section>
 
+    <div id="section-3" class="break"></div>
     <section class="experience-section center">
         <h2>Experience / Education</h2>
 
@@ -107,6 +111,38 @@
         </div>
     </section>
 
+    <div id="section-4" class="break"></div>
+    <section class="contact-section center">
+        <h2>Contact Me!</h2>
+        <p>Feel free to drop me a line below</p>
+
+        <form id="emailForm" action="" method="post">
+            <input type="text" name="name" id="name" placeholder="Name" required> <br>
+            <input type="email" name="email" id="email" placeholder="Email" required> <br>
+            <input type="text" name="subject" id="subject" placeholder="Subject"> <br>
+            <textarea name="message" id="message" cols="30" rows="10" placeholder="Message" required></textarea> <br>
+            <button class="primary-button" type="submit">Send Email</button>
+        </form>
+
+    </section>
+
+    <footer>
+        <a href="">
+            <h2>My name</h2>
+        </a>
+
+        <nav class="nav-footer center">
+            <a href="#section-1">About me</a>
+            <a href="#section-2">Projects</a>
+            <a href="#section-3">Experience</a>
+            <a href="#section-4">Contact</a>
+        </nav>
+    </footer>
+
     <script src="./js/main.js"></script>
+    <script src="./js/email.js"></script>
+    <script src="./js/navigation.js"></script>
+
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script> <!-- This is the EmailJS library -->
 </body>
 </html>
