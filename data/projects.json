@@ -1,26 +1,26 @@
 [
     {
-        "name" : "First project",
-        "description" : "This is the description of my first project",
+        "name" : "Personal Portfolio",
+        "description" : "Project created to show project that i worked on",
         "year" : 2023,
-        "img" : "./img/picture-1.webp",
-        "repo": "http://github.com/",
-        "technologies" : ["Tech 1", "Tech 2", "Tech 3"]
+        "img" : "./img/project-1.jpg",
+        "repo": "https://github.com/AdrianAdame/Portfolio-v1",
+        "technologies" : ["HTML", "CSS", "JS"]
     },
     {
-        "name" : "Second project",
-        "description" : "This is the description of my second project",
+        "name" : "Kanbango | Issue Manager",
+        "description" : "Project to simulate a kanban board to list issues in some proyect, it has roles for teams, devs and ticket managements.",
         "year" : 2023,
-        "img" : "./img/picture-2.webp",
-        "repo": "http://github.com/",
-        "technologies" : ["Tech 1", "Tech 2", "Tech 3", "Tech 4"]
+        "img" : "./img/project-2.jpg",
+        "repo": "https://github.com/AdrianAdame/Django-App-IssueManager",
+        "technologies" : ["Django", "SQLite", "Tailwind"]
     },
     {
-        "name" : "Third project",
-        "description" : "This is the description of my third project",
-        "year" : 2023,
-        "img" : "./img/picture-3.webp",
-        "repo": "http://github.com/",
-        "technologies" : ["Tech 1", "Tech 2", "Tech 3", "Tech 4", "Tech 5"]
+        "name" : "POS System | Office Supply",
+        "description" : "Point of sale project created for an Office Supply Store called 'Papeleria Pincelin' where i successfully lead and manage to create as a project for my Software Development Course",
+        "year" : 2022,
+        "img" : "./img/project-3.jpg",
+        "repo": "https://github.com/AdrianAdame/Punto-de-venta_2_0",
+        "technologies" : ["Javascript", "Nodejs", "Reactjs", "Electronjs", "MongoDB"]
     }
 ]

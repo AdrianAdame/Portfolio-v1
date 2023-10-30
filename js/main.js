@@ -51,7 +51,7 @@ const createExperienceCards = (json) => {
                 <p>${experience.title}</p>
                 <p>${experience.description}</p>
                 <p>${experience.period}</p>
-                <div class="technologies">
+                <div class="technologies center">
                     ${techs}
                 </div>
             </div>

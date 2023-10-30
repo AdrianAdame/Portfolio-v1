@@ -1,23 +1,16 @@
 [
     {
-        "entity" : "Name of the school or company",
-        "title" : "Course name or job position",
-        "description" : "The short description for the course or the job position",
-        "period" : "Month YYYY - Month YYYY",
-        "technology" : ["Technology", "Or", "Skill"]
+        "entity" : "San Diego Global Knowledge University",
+        "title" : "Fullstack development Inmersive",
+        "description" : "Program to become a fullstack software engineer using the latest technologies in the industry",
+        "period" : "March 2023 - December 2023",
+        "technology" : ["Django", "Reactjs", "Nodejs", "Javascript", "Algorithms and Data Structures"]
     },
     {
-        "entity" : "Name of the school or company",
-        "title" : "Course name or job position",
-        "description" : "The short description for the course or the job position",
-        "period" : "Month YYYY - Month YYYY",
-        "technology" : ["Technology", "Or", "Skill"]
-    },
-    {
-        "entity" : "Name of the school or company",
-        "title" : "Course name or job position",
-        "description" : "The short description for the course or the job position",
-        "period" : "Month YYYY - Month YYYY",
-        "technology" : ["Technology", "Or", "Skill"]
+        "entity" : "Universidad Autonoma de Baja California",
+        "title" : "Computer Engineer",
+        "description" : "Program that teaches all required skills to become a Computer Engineer",
+        "period" : "August 2019 - June 2023",
+        "technology" : ["Embedded Systems", "System Design", "Computer Architecture", "Operating Systems", "Artificial Intelligence", "Data Science"]
     }
 ]
